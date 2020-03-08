@@ -23,13 +23,9 @@ def printer
   assignments = []
   names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   badges = batch_badge_creator(names)
-  badges.each do |badge| 
-    puts badge
-  end
+  puts badges.inspect
   assignments = assign_rooms(names)
-  assignments.each do |assignment| 
-    puts assignment
-  end
+  puts assignments.inspect
 end
  
  

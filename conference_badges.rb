@@ -33,7 +33,8 @@ def printer
   puts assignments.inspect
 end
  
- 
+printer
+
  
  
    

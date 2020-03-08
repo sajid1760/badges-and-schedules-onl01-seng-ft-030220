@@ -1,4 +1,4 @@
-names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+# names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(names)
   introductions = []
@@ -28,7 +28,7 @@ def printer
   puts assignments.inspect
 end
  
- batch_badge_creator(names)
+ # batch_badge_creator(names)
  
  
    

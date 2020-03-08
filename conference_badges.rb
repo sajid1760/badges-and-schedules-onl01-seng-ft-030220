@@ -1,4 +1,9 @@
-# names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+onename = "Arel"
+
+def badge_maker(onename)
+  return "Hello, my name is #{onename}."
+end
 
 def batch_badge_creator(names)
   introductions = []
@@ -28,7 +33,7 @@ def printer
   puts assignments.inspect
 end
  
- # batch_badge_creator(names)
+ 
  
  
    

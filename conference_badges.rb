@@ -5,7 +5,7 @@ def batch_badge_creator(names)
   names.each do |name|
     introductions.push("Hello, my name is #{name}.")
   end
-  introductions
+  puts introductions.inspect
 end
 
 def assign_rooms(names)
@@ -28,6 +28,7 @@ def printer
   puts assignments.inspect
 end
  
+ batch_badge_creator(names)
  
  
    

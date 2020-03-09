@@ -31,7 +31,7 @@ def printer(names)
   puts assign_rooms(names).inspect
 end
  
-printer
+printer(names)
 
  
  

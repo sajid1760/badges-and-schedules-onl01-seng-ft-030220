@@ -34,6 +34,9 @@ def printer
   c = 0
   b.times do
     combined.push(badges[c])
+    c += 1 
+  end
+  b.times do
     combined.push(assignments[c])
     c += 1 
   end

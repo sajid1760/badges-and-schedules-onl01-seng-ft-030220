@@ -26,10 +26,18 @@ def assign_rooms(names)
 def printer(names)
   badges = []
   assignments = []
-  combined = []
-  puts batch_badge_creator(names).inspect
-  puts assign_rooms(names).inspect
+  # combined = []
+  badges = batch_badge_creator(names)
+  assignments = assign_rooms(names)
+  badges.each do |badge|
+    puts badge
+  end
+  assignments.each do |assignment|
+    puts assignment
+  end
 end
+
+printer(names)
  
 
 

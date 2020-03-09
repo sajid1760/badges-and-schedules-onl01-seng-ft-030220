@@ -26,16 +26,18 @@ def assign_rooms(names)
 def printer
   badges = []
   assignments = []
+  combined = []
   names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   badges = batch_badge_creator(names) 
   assignments = assign_rooms(names)
   b = names.size 
   c = 0
   b.times do
-    puts badges[c]
-    puts assignments[c]
+    combined.push(badges[c])
+    combined.push(assignments[c])
     c += 1 
   end
+  puts combined.inspect
 end
  
 printer

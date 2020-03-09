@@ -23,11 +23,10 @@ def assign_rooms(names)
  roomassignments
  end
  
-def printer
+def printer(names)
   badges = []
   assignments = []
   combined = []
-  names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   puts batch_badge_creator(names).inspect
   puts assign_rooms(names).inspect
 end
